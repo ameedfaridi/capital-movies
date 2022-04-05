@@ -4,7 +4,7 @@ import Login from "../components/auth/Login";
 import { useUIContext } from "../context/useUIContext";
 import { toggleLoading } from "../reducers/ui/actions";
 
-export default function SignUp() {
+export default function Signin() {
   const [uiState, uiDispatch] = useUIContext();
 
   useEffect(() => {

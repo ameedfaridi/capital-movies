@@ -157,10 +157,10 @@ export default function SignIn({ onLoginPage }) {
             <Grid item>
             {onLoginPage 
             ? <Link href="/sign-up" variant="body2">
-                {"Don't have an account? Sign Up"}
+                Dont have an account? Sign Up
               </Link>
             : <Typography variant="body2" style={{cursor:"pointer"}} onClick={handleClick}>
-              Don't have an account? Sign Up
+              Dont have an account? Sign Up
               </Typography>
             }
             </Grid>
