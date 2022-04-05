@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import router from "next/router";
 
-export default function index() {
+export default function Index() {
   useEffect(() => {
     router.push("/discover");
   }, []);
